@@ -14,4 +14,7 @@ class WeiboItem(scrapy.Item):
     created_at = scrapy.Field()
     text = scrapy.Field()
     comments_count = scrapy.Field()
+    id = scrapy.Field()
+    type = scrapy.Field()
+    format_create_time = scrapy.Field()
 

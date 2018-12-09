@@ -90,3 +90,8 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # FEED_EXPORT_ENCODING = 'utf-8'
+
+# Mongo DB config
+DB_HOST = '35.221.155.198'
+DB_PORT = 27017
+DB_NAME = 'QunWeibo'
